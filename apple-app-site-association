@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "5DFBXKNY49.com.app.smackdab",
-        "paths": ["*"]
+        "paths": ["/ios_test/*"]
       }
     ]
   },
