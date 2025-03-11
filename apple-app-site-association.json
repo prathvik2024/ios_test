@@ -1,0 +1,41 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "5DFBXKNY49.com.app.smackdab",
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Excludes URLs with fragment 'no_universal_links' from Universal Links."
+          },
+          {
+            "/": "/buy/*",
+            "comment": "Matches URLs starting with /buy/ for Universal Links."
+          },
+          {
+            "/": "/help/website/*",
+            "exclude": true,
+            "comment": "Excludes URLs starting with /help/website/ from Universal Links."
+          },
+          {
+            "/": "/help/*",
+            "?": { "articleNumber": "????" },
+            "comment": "Matches /help/ URLs with a 4-character articleNumber query parameter."
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "5DFBXKNY49.com.app.smackdab"
+    ]
+  },
+  "appclips": {
+    "apps": [
+      "5DFBXKNY49.com.app.smackdab"
+    ]
+  }
+}
